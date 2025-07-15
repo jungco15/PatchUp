@@ -1,0 +1,187 @@
+.loadingscreen_body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;     /* Viewport height */
+    width: 100vw;      /* Viewport width */
+    overflow: hidden;  /* Prevent scrolling */
+    margin: 0;
+    padding: 0;
+    background-color: #0D0D0D;
+}
+.loadingscreen_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vh;
+    height: 100vw;
+    overflow: hidden;
+}
+
+.loadingscreen_logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    overflow: hidden;
+}
+.loadingscreen_logo_container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.loadingscreen_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.title-1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #6EFF87;
+    font-family: candal, sans-serif;
+    margin: 10px;
+}
+
+.title-2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-family: "Candal", sans-serif;
+    margin: 10px;
+}
+.loadingscreen_buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.loadingscreen_button1{
+    background-color: #6EFF87;
+    color: #0D0D0D;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+    width: 280px;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    transition: background-color 80ms ease, transform 0.2s ease;
+}
+.loadingscreen_button1:active {
+    background-color: #288f44;
+    transform: scale(0.98); 
+}
+.loadingscreen_button2{
+    background-color: #FFFFFF;
+    color: #0D0D0D;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+    width: 280px;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    transition: background-color 80s ease, transform 0.2s ease;
+}
+.loadingscreen_button2:active {
+    background-color: #969696;
+    transform: scale(0.98); 
+}
+.loadingscreen_line1{
+    width: 100%;
+    height: 2px;
+    background-color: #c2c2c2;
+    margin: 10px 0;
+}
+.loadingscreen_divider {
+  display: flex;              
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 65%;                
+  margin: 20px 0;
+}
+
+.loadingscreen_divider::before,
+.loadingscreen_divider::after {
+  content: "";
+  flex: 1;                     
+  border-bottom: 1px solid #303437;
+}
+
+.loadingscreen_divider span {
+  padding: 0 16px;
+  color: #FFFFFF;
+  font-weight:normal;            
+  font-family: "Inter", sans-serif;
+  font-size: small;
+}
+.loadingscreen_socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+.loadingscreen_socials_button1,
+.loadingscreen_socials_button2 {
+    background-color: #FFFFFF;
+    color: #0D0D0D;
+    border: none;
+    border-radius: 8px;
+    cursor:default;
+    font-size: 12px;
+    margin: 5px;
+    width: 280px;
+    height: 45px;
+    font-family: "Inter", sans-serif;
+    font-weight: normal;
+    transition: background-color 80ms ease, transform 0.2s ease;
+}
+.loadingscreen_socials_button1:active,
+.loadingscreen_socials_button2:active {
+    background-color: #497aff;
+    transform: scale(0.98); 
+}
+.loadingscreen_socials_button1 img,
+.loadingscreen_socials_button2 img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+}
+.loadingscreen_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    left: 0;
+    height: 16rem;
+    margin-bottom: -4rem;
+}
+.loadingscreen_footer h4 {
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+}
